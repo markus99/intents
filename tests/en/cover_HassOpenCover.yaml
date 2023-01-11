@@ -25,6 +25,11 @@ tests:
   # Blinds
   - sentences:
       - "open the blinds in the kitchen"
+      - "open blinds in the kitchen"
+      - "open the blinds in kitchen"
+      - "open blinds in kitchen"      
+      - "open the kitchen blinds"
+      - "open kitchen blinds"
     intent:
       name: "HassOpenCover"
       slots:
